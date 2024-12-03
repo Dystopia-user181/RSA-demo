@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+	background-color:hsl(261, 18%, 15%);
+	color: white;
+	overflow: hidden;
+	font: 20px Arial;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
