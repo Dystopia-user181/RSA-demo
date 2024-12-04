@@ -15,6 +15,10 @@ document.getElementById("m").addEventListener("input", xx => {
 	let m = Number(xx.target.value);
 	let mp = modExp(m, e, n);
 	document.getElementById("m'").innerHTML = `m' = m<sup>e</sup> = ${mp}`;
+});
+
+document.getElementById("m'in").addEventListener("input", xx => {
+	let mp = Number(xx.target.value);
 	let mpp = modExp(mp, d, n);
 	document.getElementById("m''").innerHTML = `m'' = m'<sup>d</sup> = ${mpp}`;
 });
